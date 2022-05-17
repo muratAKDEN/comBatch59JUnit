@@ -1,4 +1,4 @@
-package day_06_radioButton;
+package day06_radioButton;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.*;
