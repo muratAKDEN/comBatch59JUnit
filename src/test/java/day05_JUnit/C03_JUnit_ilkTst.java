@@ -15,10 +15,10 @@ public class C03_JUnit_ilkTst {
     public void  method1(){
         WebDriverManager.chromedriver().setup();
         WebDriver driver=new ChromeDriver();
-        driver.manage().window().maximize();
+       driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
         driver.get("https://www.amazon.com");
-        driver.close();
+       // driver.close();
 
 
     }
