@@ -1,4 +1,4 @@
-package day08_Alerts;
+package day08_Alerts_Iframe;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.After;
@@ -6,7 +6,6 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -69,7 +68,7 @@ public class C04_Iframe {
         //      linkinin textinin gorunur oldugunu  dogrulayin ve  konsolda yazdirin.
 
         // iframeden cikmadan bulamaz
-        driver.switchTo().defaultContent();
+        driver.switchTo().defaultContent();//default Conten eski haline getirir
         WebElement linkYazi=driver.findElement(By.linkText("Elemental Selenium"));
 
 
