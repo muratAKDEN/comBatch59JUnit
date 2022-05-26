@@ -32,11 +32,7 @@ public class C06_ReadExcel {
             String key = workbook.getSheet("Sayfa1").getRow(i).getCell(0).toString();
 
             // value ise1,2,3. index deki datalarin birlesimi olacak
-            String value = workbook.getSheet("Sayfa1").getRow(i).getCell(1).toString()
-                    + ","
-                    + workbook.getSheet("Sayfa1").getRow(i).getCell(2).toString()
-                    + ","
-                    + workbook.getSheet("Sayfa1").getRow(i).getCell(3).toString();
+            String value = workbook.getSheet("Sayfa1").getRow(i).getCell(1).toString() + "," + workbook.getSheet("Sayfa1").getRow(i).getCell(2).toString() + "," + workbook.getSheet("Sayfa1").getRow(i).getCell(3).toString();
 
             ulkelerMap.put(key, value);
         }
