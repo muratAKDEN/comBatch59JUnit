@@ -1,12 +1,10 @@
-package day10_actions;
+package day10_actions_Drag_Drop;
 
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import utilities.TestBase;
-
-import javax.swing.*;
 
 public class C02_Actions extends TestBase{
 

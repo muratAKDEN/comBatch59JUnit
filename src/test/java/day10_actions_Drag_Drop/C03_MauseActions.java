@@ -1,4 +1,4 @@
-package day10_actions;
+package day10_actions_Drag_Drop;
 
 import org.junit.Assert;
 import org.junit.Test;
